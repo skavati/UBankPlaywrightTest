@@ -15,4 +15,4 @@ Run below command
 npx playwright test calculators.spec.ts --reporter=html
 
 Note#
-Tests may fail to show report with screenshot as test is running against unstable iFrames (UBank refinance calculators)while filling loan details.
+Test may fail to show report with screenshot as test is running against unstable iFrames (UBank refinance calculators)while filling loan details.
