@@ -11,7 +11,7 @@ If you want to run test locally, please follow these steps:
 3. Run `npm install` to install node modules
 
 To run tests and generate html report:
-Run below command
+Run below command:
 npx playwright test calculators.spec.ts --reporter=html
 
 Note#
