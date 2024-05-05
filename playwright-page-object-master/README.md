@@ -1,0 +1,18 @@
+## Page Object Model Pattern with Playwright 
+
+![alt text](./playwright-logo.png)
+
+This repository contains simple automation test framework written with TypeScript and Playwright and implements Page Object Model Pattern.
+
+If you want to run test locally, please follow these steps:
+
+1. Clone this repository
+2. Make sure you have `node.js` installed. If you don't, please visit [official website](https://nodejs.org/en/download/) for instructions 
+3. Run `npm install` to install node modules
+
+To run tests and generate html report:
+Run below command
+npx playwright test calculators.spec.ts --reporter=html
+
+Note#
+Tests may fail to show report with screenshot as test is running against unstable iFrames (UBank refinance calculators)while filling loan details.
